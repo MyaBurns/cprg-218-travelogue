@@ -3,37 +3,42 @@ body{
     margin: 2rem
 }
 
-.img-right {
-    float:right;
-    margin-left: 3ch; 
 
-}
+.img-left {
+    float:left;
+    margin-right: 3ch; 
+
+} 
 
 main{
+
     background-color:rgb(228, 254, 255);
-    max-width: 80ch;
+    max-width: 73ch;
     border: 1px solid #777;
     padding: 3ch;
     margin:0 auto
         
 }
 
-}
+
 h1 {
     margin-bottom: .4rem;
+    text-align: center;
 }
 
 p {
     line-height: 1.6;
+    
+
 }
 
 figure {
-    display: table;
-    width: 1px
+    float:left
 
 }
 
 figcaption {
 text-align: center;
-
 }
+
+
