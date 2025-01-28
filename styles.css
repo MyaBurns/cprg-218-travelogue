@@ -1,6 +1,9 @@
+
 *{ box-sizing: border-box; }
+
 body{ 
     margin: 2rem
+
 }
 
 
@@ -24,12 +27,12 @@ main{
 h1 {
     margin-bottom: .4rem;
     text-align: center;
+    font-family: Tajawal, Arial, Helvetica, sans-serif
 }
+
 
 p {
     line-height: 1.6;
-    
-
 }
 
 figure {
@@ -40,5 +43,11 @@ figure {
 figcaption {
 text-align: center;
 }
+
+footer{
+    margin-bottom:1rem;
+}
+
+
 
 
