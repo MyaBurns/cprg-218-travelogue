@@ -1,21 +1,13 @@
+*{ box-sizing: border-box; }
+body{ 
+    margin: 2rem
+}
+
 .img-right {
     float:right;
     margin-left: 3ch; 
 }
- *{ box-sizing: border-box; }
-            body{ 
-                margin: 2rem
-            }
-            main{
-                background-color: hsl(180, 70%, 80%);
-                max-width: 80ch;
-                border: 1px solid #777;
-                padding: 3ch;
-                margin:0 auto
-                
-            }
-            h1 {
-                margin-bottom: .4rem;
-            }
-            p {
-                line-height: 1.6;
+
+main{
+    background-color:rgb(228, 254, 255);
+}
