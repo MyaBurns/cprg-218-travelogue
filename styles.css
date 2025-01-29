@@ -43,7 +43,7 @@ figure {
 
 figcaption {
 text-align:center;
-font-family:Tajawal
+font-family:Tajawal, Arial, Helvetica, sans-serif
 }
 
 footer{
@@ -55,7 +55,7 @@ nav{
     text-align: center;
     margin-left: 3ch;
     margin-right:3ch;
-    word-spacing:4ch;  
+    word-spacing:4ch; 
 }
 
 button {
@@ -70,6 +70,7 @@ button {
 a{
    text-decoration: none; 
    color:black
+
 }
 
 img{
@@ -78,15 +79,13 @@ img{
 }
 
 h2{
-    font-family: Tajawal;
+    font-family: Tajawal, Arial, Helvetica, sans-serif
 }
 
-@media all and (max-width: 300px) {
+@media all and (max-width: 200px) {
     img{
         margin-bottom: 3ch;
         display: block;
         float: none;
         width: 100%   
     }
-
-
