@@ -42,7 +42,7 @@ figure {
 }
 
 figcaption {
-text-align: center;
+text-align:center;
 font-family:Tajawal
 }
 
@@ -74,10 +74,19 @@ a{
 
 img{
     border: 5px solid rgb(190, 207, 237)
+
 }
 
 h2{
     font-family: Tajawal;
 }
+
+@media all and (max-width: 300px) {
+    img{
+        margin-bottom: 3ch;
+        display: block;
+        float: none;
+        width: 100%   
+    }
 
 
