@@ -9,7 +9,7 @@ body{
 
 .img-left {
     float:left;
-    margin-right: 3ch; 
+    margin-right: 3ch;
 
 } 
 
@@ -33,6 +33,7 @@ h1 {
 
 p {
     line-height: 1.6;
+    font-family:manrope, Arial, Helvetica, sans-serif
 }
 
 figure {
@@ -42,6 +43,7 @@ figure {
 
 figcaption {
 text-align: center;
+font-family:Tajawal
 }
 
 footer{
@@ -68,5 +70,14 @@ button {
 a{
    text-decoration: none; 
    color:black
-
 }
+
+img{
+    border: 5px solid rgb(190, 207, 237)
+}
+
+h2{
+    font-family: Tajawal;
+}
+
+
