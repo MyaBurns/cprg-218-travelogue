@@ -46,8 +46,27 @@ text-align: center;
 
 footer{
     margin-bottom:1rem;
+    background-color: rgb(182, 220, 245);
 }
 
+nav{
+    text-align: center;
+    margin-left: 3ch;
+    margin-right:3ch;
+    word-spacing:4ch;  
+}
 
+button {
+    background-color: rgb(226, 255, 253);
+    border-color: rgb(187, 212, 220);
+}
 
+:hover {
+    background-color: rgb(207, 199, 251);
+}
 
+a{
+   text-decoration: none; 
+   color:black
+
+}
