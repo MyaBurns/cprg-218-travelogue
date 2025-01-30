@@ -56,6 +56,7 @@ nav{
     margin-left: 3ch;
     margin-right:3ch;
     word-spacing:4ch; 
+    scroll-behavior: smooth;
 }
 
 button {
@@ -81,6 +82,7 @@ img{
 h2{
     font-family: Tajawal, Arial, Helvetica, sans-serif
 }
+
 
 @media all and (max-width: 200px) {
     img{
