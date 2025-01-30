@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Introduction</title>
+</head>
+<body>
+    
+<input type="color" value="#ff0000" id="colorchoice">
+<script>
+    //if something has an id, you dont need the .getElementByID document.getElementByID("colorchoice") colorchoice
+
+colorchoice.addEventListener("input", () => {
+        //console.log(colorchoice.value);
+        document.body.style.backgroundColor = colorchoice.value;
+})
+
+//console.log(colorchoice.value);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>JS Introduction</title>
+        <style>
+            details:hover {
+                background-color: #060606;
+                color: white;
+            }
+            button {
+                padding: 1rem;
+            }
+            button:hover {
+                background-color: aqua;
+            }
+
+           
+        
+        </style>
+    </head>
+<body>
+<details>
+    <summary>Read more</summary>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit quibusdam vitae possimus libero temporibus perferendis? Alias fugiat explicabo accusamus corporis optio possimus. Nemo beatae fugit doloremque. Quam, nam esse!</p>
+</details>
+
+<input type="range" min="0" max="10">
+
+<input type="date">
+
+<script>
+
+document.title = "Here is my new title";
+document.body.style.backgroundColor = "red";
+
+</script>
+
+<!-- js has to be at the bottom, it wont work at the top-->
+
+</body>
+</html>
