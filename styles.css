@@ -49,17 +49,19 @@ font-family:Tajawal, Arial, Helvetica, sans-serif
 footer{
     margin-bottom:1rem;
     background-color: rgb(182, 220, 245);
+
 }
 
 nav{
+    scroll-behavior: smooth;
     text-align: center;
     margin-left: 3ch;
     margin-right:3ch;
     word-spacing:4ch; 
-    scroll-behavior: smooth;
+
 }
 
-button {
+link {
     background-color:rgb(226, 233, 255);
     border-color: rgb(55, 57, 57);
     
